@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: my-temporary-domain.example
+    - host: my-temporary-domain.local
       http:
         paths:
           - path: /api
